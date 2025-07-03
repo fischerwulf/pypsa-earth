@@ -50,18 +50,18 @@ Welcome to the PyPSA-Earth documentation!
     :alt: Google Drive
 
 *Motivation*. Closed-source models are the current standard for most policy and industry decisions. However, open models have proven to be
-competitive alternatives that promote science, robust technical analysis, collaboration and transparent policy decision making.
-Yet, two issues slow the adoption: open models are often designed with limited geographic scope, hindering synergies to collaborate,
+competitive alternatives that promote science, robust technical analysis, collaboration, and transparent policy decision-making.
+Yet, two issues slow their adoption: open models are often designed with limited geographic scope, hindering collaboration synergies,
 or are based on low spatially resolved data, limiting their utility.
 
 PyPSA-Earth is the first open-source global cross-sectoral energy system model with high spatial and temporal resolution. The workflow
-provide capabilities for modelling the energy systems of any country in the world, enabling large-scale collaboration and transparent
+provides capabilities for modeling the energy systems of any country in the world, enabling large-scale collaboration and transparent
 analysis for an inclusive and sustainable energy future. PyPSA-Earth is suitable for both operational studies and capacity expansion
-studies. Its sector-coupled modeling capabilities enable features for the detailed optimization of multi-energy systems, covering
-electricity, heating, transport, industry, hydrogen and more.
+studies. Its sector-coupled modeling capabilities enable detailed optimization of multi-energy systems, covering
+electricity, heating, transport, industry, hydrogen, and more.
 
-*PyPSA meets Earth initiative* members are maintaining the *PyPSA-Earth* repository as well as many other tools.
-The `website <https://pypsa-meets-earth.github.io/>`_ provides more context of the initiative and the associated projects.
+*PyPSA meets Earth initiative* members maintain the *PyPSA-Earth* repository as well as many other tools.
+The `website <https://pypsa-meets-earth.github.io/>`_ provides more context about the initiative and the associated projects.
 
 .. list-table::
    :width: 100%
@@ -71,7 +71,7 @@ The `website <https://pypsa-meets-earth.github.io/>`_ provides more context of t
      - .. image:: https://forum.openmod.org/uploads/db8804/original/1X/940b2673cfc31c4a6f01b7908f546d39d67df27e.png
      - .. image:: https://forum.openmod.org/uploads/db8804/original/1X/6af089c376b19b72ad148e4e4326c162b94db68f.png
 
-**Figure:** Example power systems build with PyPSA-Earth. See images of ~193 more countries at https://zenodo.org/records/10080766
+**Figure:** Example power systems built with PyPSA-Earth. See images of ~193 more countries at https://zenodo.org/records/10080766
 
 
 ==============
@@ -81,16 +81,16 @@ Get Involved
 There are multiple ways to get involved and learn more about our work:
     1. **Join our forum** and communication platform on `PyPSA-meets-Earth <https://discord.gg/AnuJBk23FU>`__ Discord Server
     2. **Chat on Discord with us** in the following meetings:
-        - General initiative meeting for project news and `high-level code updates <https://docs.google.com/document/d/1r6wm2RBe0DWFngmItpFfSFHA-CnUmVcVTkIKmthdW3g/edit?usp=sharing>`__. Held every `fourth Thursday 16-17:00 (UK time) <https://drive.google.com/file/d/1naH4WwW9drkOkOJ3PLO4fyWdkZQi5-_w/view?usp=share_link>`__ and is a perfect place to meet the community and get a high-level update on PyPSA ecosystem relevant for PyPSA-Earth developments.
-        - Weekly developers meetings
-            - Eastern-Hemisphere friendly *Morning meeting* every `Thursday at 09:00 (UK time) <https://drive.google.com/file/d/1PDdmjsKhzyGRo0_YrP4wPQkn2XTNh6jA/view?usp=share_link>`__.
-            - Western-Hemisphere friendly *Evening meeting* every `Thursday 16:00 (UK time) <https://drive.google.com/file/d/1gaLmyV4qGPXsogkeRcAPWjC0ESebUxU-/view?usp=share_link>`__. Every forth Thursday is replaced by the General initiative meeting which has a more high-level perspective, but you can also join to discuss more particular questions.
-    3. **Look at public materials** at `google Drive <https://drive.google.com/drive/folders/13Z8Y9zgsh5IZaDNkkRyo1wkoMgbdUxT5?usp=sharing>`__ to share to minutes, presentations, lists and documents. Feel gree to get a look!
-    4. **Notify your interest** to on-demand meetings:
+        - General initiative meeting for project news and `high-level code updates <https://docs.google.com/document/d/1r6wm2RBe0DWFngmItpFfSFHA-CnUmVcVTkIKmthdW3g/edit?usp=sharing>`__. Held every `fourth Thursday 16-17:00 (UK time) <https://drive.google.com/file/d/1naH4WwW9drkOkOJ3PLO4fyWdkZQi5-_w/view?usp=share_link>`__ and is a perfect place to meet the community and get a high-level update on the PyPSA ecosystem relevant for PyPSA-Earth developments.
+        - Weekly developer meetings:
+            - Eastern-Hemisphere friendly *Morning meeting* every `Thursday at 09:00 (UK time) <https://drive.google.com/file/d/1PDdmjsKhzyGRo0_YrP4wPQkn2XTNh6jA/view?usp=share_link>`__
+            - Western-Hemisphere friendly *Evening meeting* every `Thursday 16:00 (UK time) <https://drive.google.com/file/d/1gaLmyV4qGPXsogkeRcAPWjC0ESebUxU-/view?usp=share_link>`__. Every fourth Thursday is replaced by the General initiative meeting which has a more high-level perspective, but you can also join to discuss more specific questions.
+    3. **Look at public materials** on `Google Drive <https://drive.google.com/drive/folders/13Z8Y9zgsh5IZaDNkkRyo1wkoMgbdUxT5?usp=sharing>`__ to access minutes, presentations, lists and documents. Feel free to take a look!
+    4. **Express your interest** in on-demand meetings:
         - Demand creation and prediction meeting
         - AI asset detection meeting
         - Outreach meeting for planning, discussing events, workshops, communication, community activities
-    5. Join us and **propose your stream**.
+    5. **Join us and propose your own stream.**
 
 =============
 Documentation
@@ -134,7 +134,7 @@ Documentation
    configuration
    costs
 
-**Work flow and API**
+**Workflow and API**
 
 * :doc:`structure`
 * :doc:`rules_overview`
@@ -143,7 +143,7 @@ Documentation
 .. toctree::
    :hidden:
    :maxdepth: 2
-   :caption: Work flow and API
+   :caption: Workflow and API
 
    structure
    rules_overview
