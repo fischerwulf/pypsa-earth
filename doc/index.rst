@@ -49,16 +49,17 @@ Welcome to the PyPSA-Earth documentation!
     :target: https://drive.google.com/drive/folders/1U7fgktbxlaGzWxT2C0-Xv-_ffWCxAKZz
     :alt: Google Drive
 
-*Motivation*. Closed-source models are the current standard for most policy and industry decisions. However, open models have proven to be
-competitive alternatives that promote science, robust technical analysis, collaboration and transparent policy decision making.
-Yet, two issues slow the adoption: open models are often designed with limited geographic scope, hindering synergies to collaborate,
-or are based on low spatially resolved data, limiting their utility.
+*Motivation*. While closed-source models dominate policy and industry decisions, open models offer competitive alternatives that promote science, collaboration, and transparent decision-making. However, most open models have limited geographic scope or low spatial resolution, hindering their utility.
 
-PyPSA-Earth is the first open-source global cross-sectoral energy system model with high spatial and temporal resolution. The workflow
-provide capabilities for modelling the energy systems of any country in the world, enabling large-scale collaboration and transparent
-analysis for an inclusive and sustainable energy future. PyPSA-Earth is suitable for both operational studies and capacity expansion
-studies. Its sector-coupled modeling capabilities enable features for the detailed optimization of multi-energy systems, covering
-electricity, heating, transport, industry, hydrogen and more.
+PyPSA-Earth is an open-source global energy system model with high spatial and temporal resolution. The workflow provides capabilities for modeling the energy systems of any country in the world, enabling large-scale collaboration and transparent analysis. PyPSA-Earth supports both operational studies and capacity expansion studies with sector-coupled modeling capabilities.
+
+**Key Features:**
+
+* **Global Coverage**: Model energy systems for any country or region
+* **High Resolution**: Detailed spatial (substation-level) and temporal (hourly) modeling
+* **Multi-Sector**: Electricity, heating, transport, industry, and hydrogen systems
+* **Open Source**: Transparent, collaborative, and freely available
+* **Automated Processing**: Streamlined data extraction and network reconstruction
 
 *PyPSA meets Earth initiative* members are maintaining the *PyPSA-Earth* repository as well as many other tools.
 The `website <https://pypsa-meets-earth.github.io/>`_ provides more context of the initiative and the associated projects.
