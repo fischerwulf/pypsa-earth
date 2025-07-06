@@ -161,7 +161,7 @@ Documentation
 
 **Technical Details**
 
-* :doc:`methodology`
+* :doc:`methodology/index`
 * :doc:`data_sources`
 * :doc:`capabilities`
 
@@ -170,7 +170,7 @@ Documentation
    :maxdepth: 2
    :caption: Technical Details
 
-   methodology
+   methodology/index
    data_sources
    capabilities
 
