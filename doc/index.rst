@@ -75,23 +75,47 @@ The `website <https://pypsa-meets-earth.github.io/>`_ provides more context of t
 **Figure:** Example power systems build with PyPSA-Earth. See images of ~193 more countries at https://zenodo.org/records/10080766
 
 
+===============
+Quick Start
+===============
+
+Ready to get started with PyPSA-Earth? Here are your next steps:
+
+**New Users:**
+    * :doc:`installation` - Set up PyPSA-Earth on your system
+    * :doc:`tutorial_electricity` - Build your first electricity model
+    * :doc:`tutorial_sector` - Explore sector-coupled modeling
+
+**Explore Examples:**
+    * :doc:`notebooks` - Interactive Jupyter notebooks with examples
+    * `Country Models <https://zenodo.org/records/10080766>`__ - Pre-built models for 193+ countries
+
+**Get Support:**
+    * :doc:`how_to_contribute` - Join the development community
+    * `Discord <https://discord.gg/AnuJBk23FU>`__ - Ask questions and get help
+
+
 ==============
 Get Involved
 ==============
 
 There are multiple ways to get involved and learn more about our work:
-    1. **Join our forum** and communication platform on `PyPSA-meets-Earth <https://discord.gg/AnuJBk23FU>`__ Discord Server
-    2. **Chat on Discord with us** in the following meetings:
-        - General initiative meeting for project news and `high-level code updates <https://docs.google.com/document/d/1r6wm2RBe0DWFngmItpFfSFHA-CnUmVcVTkIKmthdW3g/edit?usp=sharing>`__. Held every `fourth Thursday 16-17:00 (UK time) <https://drive.google.com/file/d/1naH4WwW9drkOkOJ3PLO4fyWdkZQi5-_w/view?usp=share_link>`__ and is a perfect place to meet the community and get a high-level update on PyPSA ecosystem relevant for PyPSA-Earth developments.
-        - Weekly developers meetings
-            - Eastern-Hemisphere friendly *Morning meeting* every `Thursday at 09:00 (UK time) <https://drive.google.com/file/d/1PDdmjsKhzyGRo0_YrP4wPQkn2XTNh6jA/view?usp=share_link>`__.
-            - Western-Hemisphere friendly *Evening meeting* every `Thursday 16:00 (UK time) <https://drive.google.com/file/d/1gaLmyV4qGPXsogkeRcAPWjC0ESebUxU-/view?usp=share_link>`__. Every forth Thursday is replaced by the General initiative meeting which has a more high-level perspective, but you can also join to discuss more particular questions.
-    3. **Look at public materials** at `google Drive <https://drive.google.com/drive/folders/13Z8Y9zgsh5IZaDNkkRyo1wkoMgbdUxT5?usp=sharing>`__ to share to minutes, presentations, lists and documents. Feel gree to get a look!
-    4. **Notify your interest** to on-demand meetings:
-        - Demand creation and prediction meeting
-        - AI asset detection meeting
-        - Outreach meeting for planning, discussing events, workshops, communication, community activities
-    5. Join us and **propose your stream**.
+
+**Community Channels:**
+    * `Discord Server <https://discord.gg/AnuJBk23FU>`__ - Join our forum and communication platform
+    * `Public Materials <https://drive.google.com/drive/folders/13Z8Y9zgsh5IZaDNkkRyo1wkoMgbdUxT5?usp=sharing>`__ - Access meeting minutes, presentations, and documents
+
+**Regular Meetings:**
+    * **General Initiative Meeting** - Monthly project updates (`4th Thursday 16-17:00 UK time <https://drive.google.com/file/d/1naH4WwW9drkOkOJ3PLO4fyWdkZQi5-_w/view?usp=share_link>`__)
+    * **Developer Meetings** - Weekly technical discussions
+        - `Morning meeting <https://drive.google.com/file/d/1PDdmjsKhzyGRo0_YrP4wPQkn2XTNh6jA/view?usp=share_link>`__ (Thursday 09:00 UK time)
+        - `Evening meeting <https://drive.google.com/file/d/1gaLmyV4qGPXsogkeRcAPWjC0ESebUxU-/view?usp=share_link>`__ (Thursday 16:00 UK time)
+
+**Specialized Groups:**
+    * Demand creation and prediction
+    * AI asset detection
+    * Outreach and community activities
+    * **Propose your own stream** - We welcome new initiatives!
 
 =============
 Documentation
@@ -134,6 +158,21 @@ Documentation
    wildcards
    configuration
    costs
+
+**Technical Details**
+
+* :doc:`methodology`
+* :doc:`data_sources`
+* :doc:`capabilities`
+
+.. toctree::
+   :hidden:
+   :maxdepth: 2
+   :caption: Technical Details
+
+   methodology
+   data_sources
+   capabilities
 
 **Work flow and API**
 
