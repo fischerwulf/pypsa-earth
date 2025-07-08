@@ -105,7 +105,7 @@ For citations, please use the following BibTeX: ::
   title = {PyPSA-Earth. A new global open energy system optimization model demonstrated in Africa},
   publisher = {Applied Energy},
   year = {2023},
-  url = {https://www.sciencedirect.com/science/article/pii/S030626192300460},
+  url = {https://www.sciencedirect.com/science/article/pii/S0306261923004609},
   doi = {https://doi.org/10.1016/j.apenergy.2023.121096},
   }
 
