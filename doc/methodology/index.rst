@@ -15,14 +15,14 @@ PyPSA-Earth employs a comprehensive methodology for global energy system modelin
 
 The methodology is organized into five key components:
 
-**Mathematical Framework**
-    The core optimization formulations, objective functions, and constraints that define the energy system modeling problem.
+**Data Processing**
+    Comprehensive workflows for integrating weather data, renewable energy resources, and demand patterns.
 
 **Network Modeling**
     Automated approaches for constructing realistic power system networks from open-source geospatial data.
 
-**Data Processing**
-    Comprehensive workflows for integrating weather data, renewable energy resources, and demand patterns.
+**Mathematical Framework**
+    The core optimization formulations, objective functions, and constraints that define the energy system modeling problem.
 
 **Workflow Management**
     Reproducible and transparent processing pipelines using Snakemake for automated model building.
@@ -38,9 +38,9 @@ Methodological Components
 .. toctree::
    :maxdepth: 2
 
-   mathematical_framework
-   network_modeling
    data_processing
+   network_modeling
+   mathematical_framework
    workflow_management
    validation_framework
 
