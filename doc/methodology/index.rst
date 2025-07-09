@@ -18,6 +18,9 @@ The methodology is organized into five key components:
 **Data Processing**
     Comprehensive workflows for integrating weather data, renewable energy resources, and demand patterns.
 
+**Data Sources and Integration**
+    Comprehensive data infrastructure with systematic quality assurance, uncertainty quantification, and integration frameworks.
+
 **Network Modeling**
     Automated approaches for constructing realistic power system networks from open-source geospatial data.
 
@@ -39,6 +42,7 @@ Methodological Components
    :maxdepth: 2
 
    data_processing
+   data_sources
    network_modeling
    mathematical_framework
    workflow_management
@@ -49,8 +53,7 @@ Integration with PyPSA-Earth Workflow
 
 The methodology described in this section is implemented through PyPSA-Earth's automated workflow system. For practical application guidance, see:
 
-* :doc:`../data_sources` - Detailed data source documentation
-* :doc:`../capabilities` - Application examples and use cases
+* :doc:`../introduction` - Overview of capabilities and applications
 * :doc:`../tutorial_electricity` - Step-by-step modeling tutorials
 * :doc:`../tutorial_sector` - Sector-coupled modeling examples
 

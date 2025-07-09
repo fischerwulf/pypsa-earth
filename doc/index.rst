@@ -125,6 +125,7 @@ Documentation
 
 * :doc:`introduction`
 * :doc:`installation`
+* :doc:`methodology/index`
 * :doc:`tutorial_electricity`
 * :doc:`tutorial_sector`
 * :doc:`model_customization`
@@ -138,6 +139,7 @@ Documentation
 
    introduction
    installation
+   methodology/index
    tutorial_electricity
    tutorial_sector
    model_customization
@@ -161,18 +163,10 @@ Documentation
 
 **Technical Details**
 
-* :doc:`methodology/index`
-* :doc:`data_sources`
-* :doc:`capabilities`
-
 .. toctree::
    :hidden:
    :maxdepth: 2
    :caption: Technical Details
-
-   methodology/index
-   data_sources
-   capabilities
 
 **Work flow and API**
 

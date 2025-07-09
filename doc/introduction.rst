@@ -61,32 +61,112 @@ Transparent, reproducible modeling workflows using Snakemake ensure scientific r
 
 For detailed technical information, see :doc:`methodology` and :doc:`data_sources`.
 
-Scenario Analysis and Application Areas
-=======================================
+Capabilities and Applications
+=============================
 
-PyPSA-Earth supports diverse analytical applications across multiple domains:
+PyPSA-Earth provides comprehensive capabilities for energy system analysis, supporting applications from local energy planning to global decarbonization studies. This section demonstrates the model's technical capabilities and their diverse analytical applications.
 
-**Energy System Analysis**
+**Core Analytical Capabilities:**
 
-* **Transition Planning**: Model decarbonization pathways, renewable integration, and technology transitions
-* **Operational Studies**: Optimize system operation, assess grid constraints, and evaluate security of supply
-* **Expansion Planning**: Determine optimal infrastructure investments and technology deployment strategies
+* **Multi-Scale Modeling**: From city-level to continental analysis
+* **Sector Integration**: Electricity, heating, transport, industry, and hydrogen
+* **Temporal Flexibility**: Hourly to multi-decadal analysis
+* **Scenario Analysis**: Comprehensive uncertainty quantification
+* **Policy Evaluation**: Impact assessment of regulations and incentives
 
-**Policy and Investment Support**
+Multi-Scale Energy System Analysis
+----------------------------------
 
-* **Policy Analysis**: Evaluate climate policies, market designs, and regulatory impacts on energy systems
-* **Investment Planning**: Support both public infrastructure planning and private sector investment decisions
-* **Technology Assessment**: Compare energy technologies, storage systems, and sector coupling options
+**Spatial Flexibility**
 
-**Research Applications**
+PyPSA-Earth's adaptive spatial resolution supports diverse analytical requirements:
 
-* **Scenario Analysis**: Explore multiple futures using advanced uncertainty quantification methods
-* **System Integration**: Study interactions between electricity, heating, transport, and industrial sectors
-* **Regional Studies**: Analyze energy systems from local to continental scales with consistent methodology
+* **Local Studies**: Urban energy systems and regional energy strategies
+* **National Planning**: Country-level energy transition pathways with subnational detail
+* **Continental Integration**: Multi-country electricity markets and intercontinental connections
+* **Global Analysis**: World-wide decarbonization scenarios and energy trade
+
+**Resolution Optimization**
+
+Advanced clustering algorithms balance detail with computational efficiency, reducing network complexity while preserving key system characteristics.
+
+Sector Coupling and Integration
+-------------------------------
+
+**Electricity System**
+
+Comprehensive modeling of generation technologies (renewable and conventional), storage systems, network infrastructure, and smart grid technologies.
+
+**Heating and Cooling**
+
+Detailed thermal energy modeling including heat pumps, district heating, solar thermal, and industrial cooling systems.
+
+**Transport Sector**
+
+Electric vehicle integration, alternative fuels (hydrogen, synthetic fuels), charging infrastructure, and modal shift analysis.
+
+**Industrial Sector**
+
+Energy-intensive industry decarbonization including steel production, chemical industry, cement, and hydrogen economy integration.
+
+**Hydrogen Systems**
+
+Comprehensive hydrogen modeling covering production (electrolysis), storage and transport (underground storage, pipelines), and applications (industrial feedstock, power generation, transportation).
+
+Scenario Analysis and Uncertainty Quantification
+-----------------------------------------------
+
+**Scenario Development**
+
+Structured approach exploring policy scenarios, technology pathways, demand variations, and resource scenarios with narrative consistency and parameter correlation.
+
+**Uncertainty Analysis**
+
+* **Monte Carlo Simulation**: Parameter sampling with correlation handling
+* **Robust Optimization**: Scenario-based optimization and regret minimization
+* **Sensitivity Analysis**: Parameter screening and threshold analysis
+* **Probabilistic Forecasting**: Confidence intervals and risk metrics
+
+Policy Analysis and Planning Applications
+----------------------------------------
+
+**Climate Policy Assessment**
+
+* **Carbon Pricing**: Carbon tax and cap-and-trade system analysis
+* **Renewable Energy Policies**: Feed-in tariffs, renewable portfolio standards, auction systems
+* **Energy Efficiency**: Building standards, appliance regulations, industrial efficiency
+
+**Infrastructure Planning**
+
+* **Transmission Planning**: Network expansion and reliability analysis
+* **Generation Planning**: Resource adequacy and technology mix optimization
+* **Storage Planning**: Sizing, technology selection, and economic viability
+
+**Market Design and Regulation**
+
+* **Electricity Markets**: Market structure, pricing mechanisms, capacity markets
+* **Regulatory Impact**: Rate design, net metering, utility regulation
+
+Real-World Applications
+-----------------------
+
+**Continental Studies**
+
+* **African Energy Systems**: Continental power system master plans, regional power pools
+* **European Integration**: EU Green Deal analysis, energy union cooperation
+* **Global Analysis**: Worldwide decarbonization pathways and energy security
+
+**National Applications**
+
+* **Net-Zero Scenarios**: Country-specific emission reduction strategies
+* **Energy Security**: Supply diversification and resilience planning
+* **Investment Support**: Infrastructure investment needs and business applications
+
+**Practical Applications**
 
 PyPSA-Earth has been successfully applied to validate models across Africa, develop net-zero scenarios for various countries, analyze renewable energy integration challenges, and support infrastructure investment decisions worldwide.
 
-For detailed application examples and methodologies, see :doc:`capabilities`.
+For detailed technical methodologies, see :doc:`methodology`.
 
 Video and Milestone Paper
 ========
